@@ -11,6 +11,8 @@ The best model can be found [here](https://drive.google.com/file/d/1hFTxJaXXGyia
 ![Original-ResNet-18-Architecture](https://github.com/dwipddalal/DL-Image-calorie-prediction/assets/91228207/e21e6b70-d0d3-4d51-92e1-7c5182cb3c23)
 
 
+The ResNet (Residual Network) architecture revolutionized the field of deep learning by introducing the concept of residual connections, effectively solving the vanishing gradient problem in deep networks. Unlike traditional architectures that stack layers in a sequential manner, ResNet incorporates "skip connections" that bypass one or more layers. These connections allow the gradient to backpropagate more effectively through the network, enabling the training of much deeper models. The architecture consists of multiple "residual blocks," each containing convolutional layers followed by batch normalization and ReLU activation. The output from these layers is added to the input, forming the "residual" component. This additive nature of residual blocks allows the network to learn identity functions easily, providing a path for gradients during backpropagation. ResNet has been a foundational architecture for various tasks, setting new performance benchmarks and serving as a backbone for many state-of-the-art models.
+
 ## Structure
 
 - `main.py`: Contains the core logic for training the deep learning model.
