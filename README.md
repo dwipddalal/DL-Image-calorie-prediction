@@ -8,6 +8,7 @@ The best model can be found [here](https://drive.google.com/file/d/1hFTxJaXXGyia
 
 
 ## The model: ResNet
+![Original-ResNet-18-Architecture](https://github.com/dwipddalal/DL-Image-calorie-prediction/assets/91228207/e21e6b70-d0d3-4d51-92e1-7c5182cb3c23)
 
 
 ## Structure
