@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthify</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #4CAF50;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        input[type="file"] {
+            margin: 20px;
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<h1>Let's make sure we eat healthy</h1>
+
+<input type="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+<button onclick="classifyImage()">Classify</button>
+
+<img id="uploadedImage" style="max-width: 300px; margin-top: 20px; display: none;">
+
+<h2>Result: <span id="result"></span></h2>
+
+</body>
+</html>
