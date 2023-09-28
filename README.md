@@ -17,7 +17,6 @@ The best model can be found [here](https://drive.google.com/file/d/1hFTxJaXXGyia
 - Python 3.x
 - PyTorch
 - Flask
-- PIL
 
 ## Usage
 
