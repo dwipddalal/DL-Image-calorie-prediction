@@ -39,12 +39,14 @@ The ResNet (Residual Network) architecture revolutionized the field of deep lear
 - Download the best_model from the link given above.
 - Run the Flask app: python app.py
 
--/deployment
-|-- /static
-|   |-- index.html
-|   |-- script.js
-|-- app.py
-|-- best_model.pth
+- /deployment
+  - /static
+    - index.html
+    - script.js
+  - app.py
+  - best_model.pth
+
+
 
 
 ![WhatsApp Image 2023-09-28 at 18 40 25](https://github.com/dwipddalal/DL-Image-calorie-prediction/assets/91228207/19834057-f046-46ec-9106-df40dd997873)
