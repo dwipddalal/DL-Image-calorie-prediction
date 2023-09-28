@@ -22,7 +22,27 @@ The best model can be found [here](https://drive.google.com/file/d/1hFTxJaXXGyia
 
 ### Training the Model
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/dwipddalal/DL-Image-calorie-prediction.git
+2.  Navigate to the repository folder: cd DL-Image-calorie-prediction
+3.  Run the main script: python main.py
+
+### Deployment
+Run the Flask app: python app.py
+
+Open your browser and go to `http://localhost:5000/` to interact with the model.
+
+## Features
+- **Data Loading**: Custom DataLoader for loading food images.
+- **Model**: Uses a pre-trained ResNet model.
+- **Training and Testing**: Includes code for training and testing the model.
+- **Deployment**: Flask application for serving the model.
+- **Frontend**: Simple HTML and JavaScript for user interaction.
+
+## Contributing
+Feel free to open issues or PRs if you find any problems or have suggestions for improvements.
+
+
+
 
 
 
