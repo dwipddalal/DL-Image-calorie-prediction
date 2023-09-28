@@ -29,6 +29,9 @@ The best model can be found [here](https://drive.google.com/file/d/1hFTxJaXXGyia
 ### Deployment
 Run the Flask app: python app.py
 
+![WhatsApp Image 2023-09-28 at 18 40 25](https://github.com/dwipddalal/DL-Image-calorie-prediction/assets/91228207/19834057-f046-46ec-9106-df40dd997873)
+
+
 Open your browser and go to `http://localhost:5000/` to interact with the model.
 
 ## Features
