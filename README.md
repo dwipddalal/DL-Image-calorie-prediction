@@ -6,6 +6,10 @@ This repository contains code for predicting the calorie content of food items b
 Here, my model achieves an accuracy of 98% on the test dataset.
 The best model can be found [here](https://drive.google.com/file/d/1hFTxJaXXGyia_iT0fL8V9mLAanYWCiAY/view?usp=sharing)
 
+
+## The model: ResNet
+
+
 ## Structure
 
 - `main.py`: Contains the core logic for training the deep learning model.
